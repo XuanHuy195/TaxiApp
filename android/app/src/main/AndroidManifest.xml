@@ -9,6 +9,9 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="TaxiApp"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyA4MiTeA54Bcnr_pMlt3G6HzWT8AqkiQ-s"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
